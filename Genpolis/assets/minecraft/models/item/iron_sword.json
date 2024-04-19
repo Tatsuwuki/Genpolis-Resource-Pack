@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+    },
+      "model": "minecraft:item/steel_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+    },
+      "model": "minecraft:item/steel_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+    },
+      "model": "minecraft:item/steel_claymore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+    },
+      "model": "minecraft:item/venomous_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+    },
+      "model": "minecraft:item/magician_dagger"
+    }
+  ]
+}
